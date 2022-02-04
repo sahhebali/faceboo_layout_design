@@ -168,9 +168,9 @@ main {
 }
 
 .left_aside,
-.right_aside {
+right_menu {
     flex-basis: 330px;
-    background: chartreuse;
+    background: #81858a;
     height: 100vh;
 }
 
@@ -305,4 +305,256 @@ main {
 
 .left_aside:hover::-webkit-scrollbar-thumb {
     display: block;
+}
+
+/* right aside */
+.right_menu {
+    width: 330px;
+    padding: 70px 15px 0 15px;
+    background: rgb(7, 7, 7);
+
+}
+
+.birthday_container {
+
+    background-color: #18191A;
+    padding: 6px 6px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 34%);
+    /* margin-bottom: 5px; */
+    transition: 0.3s;
+}
+
+.birthday_container:hover {
+    background: #434446;
+}
+
+.birthday {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.birthday_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.birthday_img img {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.birthday_img span {
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.icon i {
+    color: #696666;
+}
+
+.icon i:hover {
+    background: #717275;
+    color: #b4aeae;
+    border: 1px solid #717275;
+    border-radius: 5px;
+    padding: 3px;
+
+}
+
+.other_user p {
+
+    padding: 8px 5px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.other_user p a {
+    color: #FFFFFF;
+    font-weight: 400px;
+    font-size: large;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* ===under_line css=== */
+.under_line {
+    width: 300px;
+    height: 1px;
+    background: #434446;
+    margin-top: 10px;
+}
+
+/* sponsored */
+.sponsored_container {
+    padding: 20px 0 4px;
+    background-color: #18191A;
+    border-radius: 10px;
+    /* box-shadow: 0 1px 2px rgb(0 0 0 / 34%); */
+    /* margin-bottom: 5px; */
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+.sponsored_container :hover {
+    background: #434446;
+
+
+}
+
+.sponsored_container h3 {
+    color: #D1D2D7;
+    margin: 0 4px;
+    padding: 2px 8px;
+}
+
+.sponsored {
+    display: flex;
+    align-items: center;
+    margin: 5px 4px;
+    padding: 8px;
+}
+
+.sponsored_img img {
+    margin-right: 10px;
+}
+
+.sponsored_about h4 {
+    color: #D1D2D7;
+}
+
+.sponsored_about h6 {
+    color: #D1D2D7;
+}
+
+.sponsored_img img {
+    width: 131px;
+    height: 131px;
+}
+
+/* your_page css */
+.your_page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px;
+}
+
+.your_page h4 {
+    color: white;
+}
+
+.icon2 a span {
+    color: white;
+}
+
+.pages nav ul :first-child {
+
+    display: flex;
+    align-items: center;
+    padding: 0px 8px;
+
+}
+
+
+
+.pages nav ul :first-child a img {
+    border-radius: 50%;
+    height: 30px;
+}
+
+.pages nav ul :first-child a h4 {
+    color: #e4e6eb;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pages nav ul li {
+    padding: 7px 0;
+}
+
+/* .pages nav ul li a {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+} */
+
+.pages nav ul li a span {
+    color: #a0a2a8;
+}
+
+.pages nav ul li a h6 {
+    color: #e4e6eb;
+}
+
+.pages nav ul li a p {
+    color: #e4e6eb;
+}
+
+/* contacts css  */
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 5px;
+}
+
+.contacts h2 {
+    color: #B0B3B8;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.search_logo a span {
+    color: #B8BBBF;
+    padding: 0 5px;
+}
+
+.persion .persion_nav ul li {
+    display: flex;
+    align-items: center;
+    color: #e4e6eb;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.persion .persion_nav ul li a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* group css */
+.group nav ul li {
+    display: flex;
+    align-items: center;
+    color: #e4e6eb;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.group nav ul li a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
